@@ -1,0 +1,44 @@
+@import '../utilities/variables';
+
+/* ============================================= */
+/*              Typography                       */ 
+/* ============================================= */
+
+* {
+    font-family: $font-family-lato;
+    color: $color-777;
+  }
+
+  p {
+    line-height: 1.45em;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+.headline-primary {
+    color: $color-58e1c1;
+    margin-left: 10px;
+  }
+  
+  .headline-secondary {
+    font-weight: $font-weight-300;
+    color: $color-777;
+  }
+  
+  .link {
+    color: $color-51ddfc;
+    font-weight: $font-weight-700;
+  }
+  
+  .blockquote {
+    font-size: $font-size-1_5;
+    font-weight: $font-weight-300;
+    font-style: italic;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 8px solid $color-58e1c1;
+    border-radius: 5px;
+  }
+  

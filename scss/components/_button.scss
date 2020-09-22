@@ -1,0 +1,51 @@
+@import '../utilities/variables';
+
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: $color-fff;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+  
+  .default {
+    background-color: $color-51ddfc;
+    &:hover {
+      background-color: $color-51ddfc-lighten;
+    }
+  }
+  
+  .error {
+    background-color: $color-e4757a;
+    &:hover {
+      background-color: $color-e4757a-lighten;
+    }
+  }
+  
+  .info {
+    background-color: $color-927bc1;
+    &:hover {
+      background-color: $color-927bc1-lighten;
+    }
+  }
+  
+  .success {
+    background-color: $color-63cc82;
+    &:hover {
+      background-color: $color-63cc82-lighten;
+    }
+  }
+  
+  .warning {
+    background-color: $color-fd7856;
+    &:hover {
+      background-color: $color-fd7856-lighten;
+    }
+  }
+  

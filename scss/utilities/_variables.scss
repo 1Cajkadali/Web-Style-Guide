@@ -1,0 +1,30 @@
+// color variables
+
+$color-777: #777;
+$color-58e1c1: #58e1c1;
+$color-fff: #fff;
+$color-ccc: #ccc;
+$color-51ddfc: #51ddfc;
+$color-e4757a: #e4757a;
+$color-927bc1: #927bc1;
+$color-63cc82: #63cc82;
+$color-fd7856: #fd7856;
+
+    // lighten color
+
+    $color-51ddfc-lighten: lighten($color-51ddfc, 25%);
+    $color-e4757a-lighten: lighten($color-e4757a, 25%);
+    $color-927bc1-lighten: lighten($color-927bc1, 25%);
+    $color-63cc82-lighten: lighten($color-63cc82, 25%);
+    $color-fd7856-lighten: lighten($color-fd7856, 25%);
+
+// media queries variables
+
+$media-768: 768px;
+
+// typography variables
+
+$font-weight-300: 300;
+$font-weight-700: 700;
+$font-size-1_5: 1.5em;
+$font-family-lato: 'Lato', sans-serif;
